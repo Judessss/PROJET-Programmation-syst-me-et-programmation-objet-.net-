@@ -17,7 +17,6 @@ namespace Class.Test
             Rang Expected_Rang = new Rang(Lucas, Henry, Liste);
             //Le rang d'une variable est defini a la construction d'un objet Rang ; Null sinon
 
-
             //Action
             Rang Actual_Rang = Lucas.GetRang();
 
@@ -47,7 +46,6 @@ namespace Class.Test
             Assert.AreEqual(Expected_Rang, Lucas.GetRang());
         }
 
-
         [TestMethod]
         public void Test_AmenerSucre()
         {
@@ -57,14 +55,13 @@ namespace Class.Test
         [TestMethod]
         public void Test_AmenerSale()
         {
-            //
+           
         }
-
 
         [TestMethod]
         public void Test_Addition()
         {
-            //
+            
         }
     }
 }
