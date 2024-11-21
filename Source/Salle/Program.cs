@@ -24,7 +24,7 @@ namespace WinForm
             //CS.SendCommande();
             //Console.ReadLine();
             Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
+            Application.SetCompatibleTextRenderingDefault (false);
             Application.Run(new ChefMaster());
         }
 
