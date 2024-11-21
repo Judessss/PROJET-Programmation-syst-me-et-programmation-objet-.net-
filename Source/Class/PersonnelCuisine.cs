@@ -5,7 +5,6 @@ using System.Linq;
 using System.Text;
 
 public class PersonnelCuisine {
-
     public PersonnelCuisine(String Nom , String Prenom) {
         this.Nom = Nom;
         this.Prenom = Prenom;
@@ -45,7 +44,6 @@ public class PersonnelCuisine {
     /// <summary>
     /// @param Boolean
     /// </summary>
-    
     public void SetIsBusy(Boolean State) {
         this.IsBusy = State;
     }
