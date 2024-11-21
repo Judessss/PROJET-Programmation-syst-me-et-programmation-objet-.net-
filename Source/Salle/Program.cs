@@ -23,9 +23,9 @@ namespace WinForm
             //CommunicationSalleCuisine CS = new CommunicationSalleCuisine();
             //CS.SendCommande();
             //Console.ReadLine();
-            Application.EnableVisualStyles();
+            Application.EnableVisualStyles ();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ChefMaster());
+            Application.Run(new ChefMaster())
         }
 
 
