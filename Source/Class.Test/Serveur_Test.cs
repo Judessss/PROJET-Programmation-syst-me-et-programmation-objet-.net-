@@ -25,7 +25,7 @@ namespace Class.Test
             Assert.AreEqual(Expected_Rang, Actual_Rang);
 
         }
-
+         
         [TestMethod]
         public void Test_SetRang()
         {
@@ -47,6 +47,7 @@ namespace Class.Test
             Assert.AreEqual(Expected_Rang, Lucas.GetRang());
         }
 
+
         [TestMethod]
         public void Test_AmenerSucre()
         {
@@ -58,6 +59,7 @@ namespace Class.Test
         {
             //
         }
+
 
         [TestMethod]
         public void Test_Addition()

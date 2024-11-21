@@ -7,8 +7,6 @@ using System.Text;
 
 //public class Salle : PresentoireSalle
 
-
-
     public class Salle {
 
     private Salle(Carre CarreUn, Carre CarreDeux, MaitreHotel MaitreHotel, CommisSalle Commis, PresentoireSalle PresentoireSalle) {
@@ -18,7 +16,6 @@ using System.Text;
         this.Commis = Commis;
         this.PresentoireSalle = PresentoireSalle;
     }
-
 
     private static Salle instance = null;
 
@@ -32,8 +29,6 @@ using System.Text;
     private CommisSalle Commis;
 
     public DateTime Date;
-
-    
 
     private PresentoireSalle PresentoireSalle;
 
@@ -83,7 +78,6 @@ using System.Text;
         }
         return Salle.instance;
     }
-
     public void Service(Boolean Midi_Soir)
     {
         //false : MIDI ; true : SOIR
@@ -94,6 +88,5 @@ using System.Text;
 
         //Genere les Clients OU 
         //Le programme va faire arriver les client
-
     }
 }

@@ -48,11 +48,12 @@ namespace Class.Test
             Table[] Expected_Liste = new Table[3];
             Rang Rang = new Rang(Serveur, ChefRang, Expected_Liste);
 
-            //Action
+            //Action comment
             Table[] Actual_Liste = Rang.GetListeTables();
 
-            //Assert
+            //Assert comment
             Assert.AreEqual(Expected_Liste, Actual_Liste);
         }
     }
 }
+

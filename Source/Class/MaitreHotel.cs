@@ -7,7 +7,7 @@ using System.Text;
 public sealed class MaitreHotel : PersonnelCuisine
 {
 
-    //Cette implementation de singleton n'est pas valable sur plusieurs thread /!\
+    //Cette implementation de singleton n'est pas valable sur plusieurs thread /!\ 
     private MaitreHotel(String Nom = "NOM", String Prenom = "PRENOM") : base(Nom, Prenom)
     {
     }
@@ -121,7 +121,5 @@ public sealed class MaitreHotel : PersonnelCuisine
     /*
     public void AttribueTable() {
     }*/
-
-
 
 }

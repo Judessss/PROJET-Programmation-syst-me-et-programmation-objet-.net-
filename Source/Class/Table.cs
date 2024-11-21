@@ -6,7 +6,6 @@ using System.Text;
 
 public class Table
 {
-
     public Table(int NombreChaises, int NombrePersonnes, int id)
     {
         this.NombreChaises = NombreChaises;
@@ -87,6 +86,7 @@ public class Table
         this.NombrePersonnes = NbPersonnes;
     }
 
+
     /// <summary>
     /// 
     /// </summary>
@@ -125,6 +125,7 @@ public class Table
     /// <summary>
     /// @param boolean
     /// </summary>
+    /// 
     public void SetHasEau(Boolean State)
     {
         this.HasEau = State;

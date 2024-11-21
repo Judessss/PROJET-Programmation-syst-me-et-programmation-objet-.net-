@@ -31,6 +31,7 @@ namespace Class.Test
             Assert.AreEqual(Expected_Rang, Actual_Rang);
         }
 
+
         [TestMethod]
         public void Test_GetRangDeux()
         {
@@ -49,8 +50,10 @@ namespace Class.Test
 
             Carre Carre = new Carre(Rang1, Expected_Rang);
 
+
             //Action
             Rang Actual_Rang = Carre.GetRangDeux();
+
 
             //Assert
             Assert.AreEqual(Expected_Rang, Actual_Rang);

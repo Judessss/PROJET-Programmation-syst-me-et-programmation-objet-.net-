@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace Class
 {
+
     public class CommunicationSalleCuisine
     {
         private byte[] bytes = new byte[1024];
@@ -41,6 +42,7 @@ namespace Class
             }
             
         }
+
         public void AddSale(string a, int b)
         {
             // TODO implement here
