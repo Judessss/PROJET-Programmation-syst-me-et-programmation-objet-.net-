@@ -37,6 +37,7 @@ namespace Class.Test
             Assert.AreEqual(Expected_Plat, Actual_Plat);
         }
 
+
         [TestMethod]
         public void Test_SetPlats()
         {
