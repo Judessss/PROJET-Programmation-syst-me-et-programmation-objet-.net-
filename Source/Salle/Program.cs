@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Class;
 
-namespace WinForm
+namespace WinForm 
 {
     static class Program
     {
