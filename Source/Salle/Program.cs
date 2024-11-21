@@ -18,7 +18,7 @@ namespace WinForm
         /// Point d'entrée principal de l'application.
         /// </summary>
         //[STAThread]
-        static Main()
+        static void Main()
         {
             //CommunicationSalleCuisine CS = new CommunicationSalleCuisine();
             //CS.SendCommande();
